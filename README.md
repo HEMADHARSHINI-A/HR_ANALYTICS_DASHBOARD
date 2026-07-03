@@ -10,7 +10,7 @@ The **HR Analytics Dashboard** is an interactive Power BI project designed to an
 
 > Add your dashboard screenshot in the `images` folder and rename it as `dashboard.png`.
 
-![HR Analytics Dashboard](images/dashboard.png)
+![HR Analytics Dashboard](images/Dashboard.png)
 
 ---
 
