@@ -13,14 +13,14 @@
 
 # 📌 Project Overview
 
-The **HR Analytics Dashboard** is an interactive Power BI project developed to analyze employee demographics, workforce trends, employee attrition, and departmental performance. The dashboard enables HR professionals and business leaders to gain meaningful insights through interactive reports and visualizations.
+The **HR Analytics Dashboard** is an interactive Power BI project designed to analyze employee demographics, workforce trends, employee attrition, and departmental performance. It enables HR professionals and business leaders to make informed decisions using interactive reports and visualizations.
 
 ---
 
 # 🖼️ Dashboard Preview
 
 <p align="center">
-<img src="images/dashboard.png" alt="HR Analytics Dashboard" width="100%">
+<img src="dashboard.png" alt="HR Analytics Dashboard" width="100%">
 </p>
 
 ---
@@ -53,22 +53,22 @@ The **HR Analytics Dashboard** is an interactive Power BI project developed to a
 
 # 📊 Dashboard Features
 
-- 📌 Employee Overview
+- 👥 Employee Overview
 - 📉 Attrition Analysis
-- 🏢 Department Analysis
+- 🏢 Department-wise Analysis
 - 💼 Job Role Analysis
 - 👨‍💼 Gender Distribution
 - 🎓 Education Field Analysis
 - ✈️ Business Travel Analysis
 - 🎂 Age Group Analysis
 - 📅 Years at Company Analysis
-- 🎛 Interactive Slicers & Filters
+- 🎛️ Interactive Slicers and Filters
 
 ---
 
 # 📂 Dataset
 
-**IBM HR Analytics Employee Attrition & Performance**
+**Dataset:** IBM HR Analytics Employee Attrition & Performance
 
 The dataset includes:
 
@@ -84,7 +84,7 @@ The dataset includes:
 - Job Satisfaction
 - Performance Rating
 - Years at Company
-- Attrition
+- Attrition Status
 
 ---
 
@@ -94,8 +94,8 @@ The dataset includes:
 |------|---------|
 | Microsoft Power BI Desktop | Dashboard Development |
 | Power Query | Data Cleaning & Transformation |
-| DAX | Calculations & KPIs |
-| Microsoft Excel / CSV | Dataset |
+| DAX | KPI Calculations |
+| Microsoft Excel | Dataset |
 | GitHub | Version Control & Portfolio |
 
 ---
@@ -106,7 +106,7 @@ The dataset includes:
 - Employees aged **26–35** represent the largest workforce.
 - Employees working overtime have a higher attrition rate.
 - Sales and Laboratory Technician roles show relatively higher attrition.
-- Workforce distribution varies across departments, job roles, and education fields.
+- Workforce distribution varies across departments and job roles.
 
 ---
 
@@ -117,37 +117,20 @@ HR-Analytics-Dashboard/
 │
 ├── HR_Analytics_Dashboard.pbix
 ├── README.md
-├── images/
-│     └── dashboard.png
-└── Dataset/
-      └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+├── dashboard.png
+├── LICENSE
+└── WA_Fn-UseC_-HR-Employee-Attrition.xls
 ```
 
 ---
 
 # 🚀 How to Use
 
-### 1️⃣ Clone this repository
-
-```bash
-git clone https://github.com/yourusername/HR-Analytics-Dashboard.git
-```
-
-### 2️⃣ Open the project
-
-Open **HR_Analytics_Dashboard.pbix** using **Microsoft Power BI Desktop**.
-
-### 3️⃣ Connect the dataset
-
-If prompted, browse to the dataset and reconnect it.
-
-### 4️⃣ Refresh the report
-
-Click **Refresh** to load the latest data.
-
-### 5️⃣ Explore the dashboard
-
-Use the interactive slicers and visuals to analyze HR metrics and employee trends.
+1. Download or clone this repository.
+2. Open **HR_Analytics_Dashboard.pbix** using Microsoft Power BI Desktop.
+3. If prompted, connect the dataset.
+4. Refresh the report.
+5. Explore the interactive dashboard using the slicers and charts.
 
 ---
 
@@ -158,7 +141,7 @@ Use the interactive slicers and visuals to analyze HR metrics and employee trend
 - Data Modeling
 - DAX Calculations
 - Power Query
-- Interactive Dashboard Design
+- Dashboard Design
 - Data Visualization
 - HR Analytics
 - Business Intelligence
@@ -167,23 +150,16 @@ Use the interactive slicers and visuals to analyze HR metrics and employee trend
 
 # 📸 Dashboard Highlights
 
-✅ Interactive KPI Cards
-
-✅ Employee Attrition Analysis
-
-✅ Department-wise Analysis
-
-✅ Job Role Analysis
-
-✅ Gender Distribution
-
-✅ Education Field Analysis
-
-✅ Business Travel Analysis
-
-✅ Employee Demographics
-
-✅ Interactive Filters
+- 📊 Interactive KPI Cards
+- 👥 Employee Overview
+- 📉 Attrition Analysis
+- 🏢 Department Analysis
+- 💼 Job Role Analysis
+- 👨‍💼 Gender Distribution
+- 🎓 Education Field Analysis
+- ✈️ Business Travel Analysis
+- 🎂 Age Group Distribution
+- 🎛️ Interactive Slicers
 
 ---
 
@@ -196,7 +172,7 @@ Use the interactive slicers and visuals to analyze HR metrics and employee trend
 ### Technical Skills
 
 - 📊 Power BI
-- 🗄 SQL
+- 🗄️ SQL
 - 🐍 Python
 - 📈 Microsoft Excel
 - 📉 Data Visualization
