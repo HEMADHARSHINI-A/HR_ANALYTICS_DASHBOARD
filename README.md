@@ -1,24 +1,31 @@
 # 📊 HR Analytics Dashboard | Power BI
 
-An interactive **HR Analytics Dashboard** built using **Microsoft Power BI** to analyze employee attrition, workforce demographics, departmental performance, and key HR metrics. This dashboard enables HR professionals and business leaders to make data-driven decisions through interactive visualizations and insights.
+<p align="center">
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-green?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github)
+
+</p>
 
 ---
 
-## 🖼️ Dashboard Preview
+# 📌 Project Overview
 
-The image below shows the main HR Analytics Dashboard developed in Power BI.
-
-![HR Analytics Dashboard](images/Dashboard.png)
+The **HR Analytics Dashboard** is an interactive Power BI project developed to analyze employee demographics, workforce trends, employee attrition, and departmental performance. The dashboard enables HR professionals and business leaders to gain meaningful insights through interactive reports and visualizations.
 
 ---
 
-## 📌 Project Overview
+# 🖼️ Dashboard Preview
 
-This dashboard provides comprehensive insights into employee data, helping organizations understand workforce trends, monitor attrition, and evaluate HR metrics. It uses interactive charts, KPIs, and slicers to support effective decision-making.
+<p align="center">
+<img src="images/dashboard.png" alt="HR Analytics Dashboard" width="100%">
+</p>
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 - Analyze employee attrition trends.
 - Monitor workforce demographics.
@@ -29,38 +36,39 @@ This dashboard provides comprehensive insights into employee data, helping organ
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+# 📈 Key Performance Indicators (KPIs)
 
-- 👥 Total Employees
-- ✅ Active Employees
-- ❌ Attrition Count
-- 📉 Attrition Rate
-- 🎂 Average Employee Age
-- 💰 Average Monthly Income
-- 📅 Average Years at Company
-- ⭐ Average Job Satisfaction
-- 🏆 Average Performance Rating
-
----
-
-## 📈 Dashboard Features
-
-- Employee Overview
-- Attrition Analysis
-- Department-wise Analysis
-- Job Role Analysis
-- Gender Distribution
-- Age Group Analysis
-- Education Field Analysis
-- Business Travel Analysis
-- Years at Company Analysis
-- Interactive Slicers and Filters
+| KPI | Description |
+|------|-------------|
+| 👥 Total Employees | Total workforce |
+| ✅ Active Employees | Employees currently working |
+| ❌ Attrition Count | Employees who left the organization |
+| 📉 Attrition Rate | Employee attrition percentage |
+| 🎂 Average Age | Average employee age |
+| 💰 Average Monthly Income | Average employee income |
+| 📅 Average Years at Company | Employee experience |
+| ⭐ Average Job Satisfaction | Employee satisfaction level |
 
 ---
 
-## 📂 Dataset
+# 📊 Dashboard Features
 
-**Dataset Name:** IBM HR Analytics Employee Attrition & Performance
+- 📌 Employee Overview
+- 📉 Attrition Analysis
+- 🏢 Department Analysis
+- 💼 Job Role Analysis
+- 👨‍💼 Gender Distribution
+- 🎓 Education Field Analysis
+- ✈️ Business Travel Analysis
+- 🎂 Age Group Analysis
+- 📅 Years at Company Analysis
+- 🎛 Interactive Slicers & Filters
+
+---
+
+# 📂 Dataset
+
+**IBM HR Analytics Employee Attrition & Performance**
 
 The dataset includes:
 
@@ -76,31 +84,33 @@ The dataset includes:
 - Job Satisfaction
 - Performance Rating
 - Years at Company
-- Attrition Status
+- Attrition
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
-- Microsoft Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel / CSV
-- GitHub
+| Tool | Purpose |
+|------|---------|
+| Microsoft Power BI Desktop | Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | Calculations & KPIs |
+| Microsoft Excel / CSV | Dataset |
+| GitHub | Version Control & Portfolio |
 
 ---
 
-## 💡 Business Insights
+# 💡 Business Insights
 
 - Research & Development has the highest employee count.
 - Employees aged **26–35** represent the largest workforce.
 - Employees working overtime have a higher attrition rate.
 - Sales and Laboratory Technician roles show relatively higher attrition.
-- Workforce distribution varies across departments, education fields, and job roles.
+- Workforce distribution varies across departments, job roles, and education fields.
 
 ---
 
-## 📁 Project Structure
+# 📁 Repository Structure
 
 ```text
 HR-Analytics-Dashboard/
@@ -108,71 +118,95 @@ HR-Analytics-Dashboard/
 ├── HR_Analytics_Dashboard.pbix
 ├── README.md
 ├── images/
-│     └── Dashboard.png
+│     └── dashboard.png
 └── Dataset/
       └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 ```
 
 ---
 
-## 🚀 How to Use
+# 🚀 How to Use
 
-1. Clone or download this repository.
-2. Open the `HR_Analytics_Dashboard.pbix` file using **Power BI Desktop**.
-3. Connect the dataset if prompted.
-4. Refresh the data.
-5. Explore the dashboard using the interactive slicers and charts.
+### 1️⃣ Clone this repository
+
+```bash
+git clone https://github.com/yourusername/HR-Analytics-Dashboard.git
+```
+
+### 2️⃣ Open the project
+
+Open **HR_Analytics_Dashboard.pbix** using **Microsoft Power BI Desktop**.
+
+### 3️⃣ Connect the dataset
+
+If prompted, browse to the dataset and reconnect it.
+
+### 4️⃣ Refresh the report
+
+Click **Refresh** to load the latest data.
+
+### 5️⃣ Explore the dashboard
+
+Use the interactive slicers and visuals to analyze HR metrics and employee trends.
 
 ---
 
-## 📚 Skills Demonstrated
+# 📚 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
 - DAX Calculations
+- Power Query
 - Interactive Dashboard Design
 - Data Visualization
 - HR Analytics
 - Business Intelligence
-- Business Insights Reporting
 
 ---
 
-## 🎯 Dashboard Highlights
+# 📸 Dashboard Highlights
 
-- Interactive KPI Cards
-- Dynamic Slicers
-- Department Analysis
-- Employee Demographics
-- Attrition Trends
-- Job Role Analysis
-- Business Travel Analysis
-- Education Field Analysis
-- Age Group Distribution
+✅ Interactive KPI Cards
+
+✅ Employee Attrition Analysis
+
+✅ Department-wise Analysis
+
+✅ Job Role Analysis
+
+✅ Gender Distribution
+
+✅ Education Field Analysis
+
+✅ Business Travel Analysis
+
+✅ Employee Demographics
+
+✅ Interactive Filters
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
-**Hemadharshini A**
+## Hemadharshini A
 
 **Aspiring Data Analyst**
 
-### Skills
+### Technical Skills
 
-- Power BI
-- SQL
-- Python
-- Microsoft Excel
-- Data Visualization
-- DAX
-- Power Query
+- 📊 Power BI
+- 🗄 SQL
+- 🐍 Python
+- 📈 Microsoft Excel
+- 📉 Data Visualization
+- ⚡ DAX
+- 🔄 Power Query
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project helpful, please consider **starring ⭐ this repository** to support my work.
+If you found this project helpful, please consider giving this repository a **⭐ Star**.
 
-Thank you for visiting this project!
+Thank you for visiting my project!
